@@ -1,1 +1,1 @@
-Open the [LimitedDatasetInstructions.md](main/LimitedDatasetInstructions) for details.
+Open the [LimitedDatasetInstructions.md](LimitedDatasetInstructions) for details.
