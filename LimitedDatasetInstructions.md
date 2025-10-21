@@ -31,4 +31,21 @@ If you are using the RTX 4070TI 12GB, you may proceed with the following step:
 ```nano ~/universal_manipulation_interface-main/ros2_ws/src/umi_visualizer/umi_visualizer/umi_replay_node.py```   
 Look for the line of code ***dataset_path = Path.home() / 'universal_manipulation_interface-main' / '....' / 'dataset.zarr.zip'***   
 Change the '....' to the limited_data_set folder. You should have:   
-***dataset_path = Path.home() / 'universal_manipulation_interface-main' / 'limited_data_set' / 'dataset.zarr.zip'***
+```dataset_path = Path.home() / 'universal_manipulation_interface-main' / 'limited_data_set' / 'dataset.zarr.zip'```   
+Close and save.   
+
+**Step 7:** In this terminal run the following command.   
+```
+cd ~/universal_manipulation_interface-main/ros2_ws
+colcon build --packages-select umi_visualizer
+source install/setup.bash
+ros2 run umi_visualizer umi_replay_node
+```
+
+**Step 8:** Keep terminal 1 open and open a fresh terminal. In this terminal run the following command to simulate the dataset in RViZ.   
+```
+cd ~/universal_manipulation_interface-main/ros2_ws
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+ros2 launch ur_description view_ur.launch.py ur_type:=ur5 gui:=false
+```
