@@ -30,7 +30,7 @@ If you are using the RTX 4070TI 12GB, you may proceed with the following step:
 **Step 6:** Edit umi_replay_node.py by running this command.   
 ```nano ~/universal_manipulation_interface-main/ros2_ws/src/umi_visualizer/umi_visualizer/umi_replay_node.py```   
 Look for the line of code ***dataset_path = Path.home() / 'universal_manipulation_interface-main' / '....' / 'dataset.zarr.zip'***   
-Change the '....' to the limited_data_set folder. You should have:   
+Change the '....' to the diverse_dataset folder. You should have:   
 ```dataset_path = Path.home() / 'universal_manipulation_interface-main' / 'diverse_dataset' / 'dataset.zarr.zip'```   
 Close and save.   
 
