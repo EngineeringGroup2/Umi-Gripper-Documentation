@@ -1,1 +1,1 @@
-Open the [LimitedDatasetInstructions.md](Umi-Gripper-Documentation/LimitedDatasetInstructions) for details.
+Open the [LimitedDatasetInstructions.md](main/LimitedDatasetInstructions) for details.
