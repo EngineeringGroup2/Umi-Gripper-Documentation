@@ -2,5 +2,5 @@
 
 # Training limited_data_set
 **Step 1:** Run the followiung commands in a new terminal:
-```conda activate umi```
-```cd `~/universal_manipulation_interface-main```
+```conda activate umi```   
+```cd `~/universal_manipulation_interface-main```   
