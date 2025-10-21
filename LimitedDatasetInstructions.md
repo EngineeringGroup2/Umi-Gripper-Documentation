@@ -2,8 +2,10 @@
 
 # Training limited_data_set
 **Step 1:** Run the followiung commands in a new terminal:   
-```conda activate umi```   
-```cd `~/universal_manipulation_interface-main```   
+```
+conda activate umi   
+cd ~/universal_manipulation_interface-main
+```   
 
 **Step 2:** Whilst inside the ```universal_manipulation_interface-main directory```, create a new folder called "limited_data_set".   
 Record your limited dataset and extract the files into this folder.   
