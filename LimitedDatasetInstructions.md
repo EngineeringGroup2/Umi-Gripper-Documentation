@@ -21,7 +21,7 @@ If you are using the desired RTX 3090 24GB please follow the step for training d
 If you are using the RTX 4070TI 12GB, you may proceed with the following step:
 
 **Step 5:** Train the data. 
-```python train.py --config-name=train_diffusion_unet_timm_umi_workspace task.dataset_path=example_demo_session/dataset.zarr.zip policy.obs_encoder._target_=diffusion_policy.model.vision.timm_obs_encoder.TimmObsEncoder policy.obs_encoder.model_name=resnet18 policy.obs_encoder.pretrained=False```   
+```python train.py --config-name=train_diffusion_unet_timm_umi_workspace task.dataset_path=limited_data_set/dataset.zarr.zip policy.obs_encoder._target_=diffusion_policy.model.vision.timm_obs_encoder.TimmObsEncoder policy.obs_encoder.model_name=resnet18 policy.obs_encoder.pretrained=False```   
 
 **Now close the terminal**   
 
