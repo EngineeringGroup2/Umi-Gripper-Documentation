@@ -5,4 +5,4 @@ Open the [DiverseDatasetInstructions.md](DiverseDatasetInstructions.md) for deta
 Open the [BadLightDatasetInstructions.md](BadLightDatasetInstructions.md) for details on creating and training the badLight_dataset.   
 
 To visualise the RViZ simulation of each dataset, see below:   
-- [Limited dataset simulation](Limited dataset.mov)
+- [Limited dataset simulation](LimitedDataset.mov)
