@@ -4,7 +4,7 @@
 **Step 1:** Run the followiung commands in a new terminal:   
 ```
 conda activate umi   
-cd `~/universal_manipulation_interface-main
+cd ~/universal_manipulation_interface-main
 ```   
 
 **Step 2:** Whilst inside the ```universal_manipulation_interface-main directory```, create a new folder called "badLight_dataset".   
