@@ -4,5 +4,7 @@ Open the [LimitedDatasetInstructions.md](LimitedDatasetInstructions.md) for deta
 Open the [DiverseDatasetInstructions.md](DiverseDatasetInstructions.md) for details on creating and training the diverse_dataset.   
 Open the [BadLightDatasetInstructions.md](BadLightDatasetInstructions.md) for details on creating and training the badLight_dataset.   
 
-To visualise the RViZ simulation of each dataset, see below:   
+To visualise the RViZ simulation of each dataset, download the raw files from below:   
 - [Limited dataset simulation](LimitedDataset.mov)
+- [Diverse dataset simulation](DiverseDataset.mov)
+- [Bad lighting dataset simulation](BadLightingDataset.mov)
